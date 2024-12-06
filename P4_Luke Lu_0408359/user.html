@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Canada</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <script type="text/javascript" src="contact.js"></script>
+  </head>
+
+  <body>
+    <main>
+    <div class=" head_index" id="head"> 
+      <div class="head_nav">
+        <h1>Canada</h1>
+        <div id="nav">
+          <a href="index.html">Homepage</a>
+          <a href="site.html">Tourist Attraction</a>
+          <a href="food.html">Special Food</a>
+          <a href="user.html">Contact Us</a>
+        </div>
+      </div>
+      <div class="header">
+        <div class="=container">
+          <nav>
+            <input type="checkbox" id="togglebox" />
+            <ul>
+              <li>
+                <a href="index.html">Homepage</a>
+              </li>
+              <li>
+                <a href="site.html">Tourist Attraction</a>
+              </li>
+              <li>
+                <a href="food.html">Special Food</a>
+              </li>
+
+              <li>
+                <a href="user.html">Contact Us</a>
+              </li>
+            </ul>
+          </nav>
+          <label class="menu" for="togglebox">
+            <img src="./images/menu.png" alt="Menu icon" />
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <h2>Contact Us</h2>
+
+    <div id="form_dd">
+      <form id="form_idf" action="index.html">
+        <div class="form_label">
+          <label for="">Name</label><br />
+          <input type="text" id="name" placeholder="Enter name"/>
+          <div class="errmsg">The name cannot be blank</div>
+        </div>
+        <div class="form_label">
+          <label for="">Telphone</label><br />
+          <input type="tel" id="tel" placeholder="Enter phone number"/>
+          <div class="errmsg">The phone number cannot be less than 10 digits</div>
+        </div>
+        <div class="form_label">
+          <label for="">E-Mail</label><br />
+          <input type="email" id="email" placeholder="Enter email address"/>
+          <div class="errmsg">Mailbox verification failure</div>
+        </div>
+        <div class="form_label">
+          <label for="">Comments</label><br />
+          <textarea name="" id="review" placeholder="Write your comments"></textarea>
+        </div>
+        <div class="btns">
+          <button type="button" id="submitBtn" onclick="submitCheck()">
+            Submit
+          </button>
+          <button type="reset">Reset</button>
+        </div>
+      </form>
+    </div>
+    <div class="foot">
+      <p id="footer_nav">
+        <a href="index.html">Homepage</a>
+        <a href="site.html">Tourist Attraction</a>
+        <a href="food.html">Special Food</a>
+        <a href="user.html">Contact Us</a>
+      </p>
+      <p>copyright &emsp; &copy;</p>
+    </div>
+  </main>
+  </body>
+</html>
